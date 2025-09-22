@@ -1,0 +1,8 @@
+D:/VerilogCodes/bcd_to_7seg/synchronus_Dff.v {1 {vlog -work work -stats=none D:/VerilogCodes/bcd_to_7seg/synchronus_Dff.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module synchronus_d_ff
+
+Top level modules:
+	synchronus_d_ff
+
+} {} {}}
