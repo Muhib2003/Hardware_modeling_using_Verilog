@@ -15,7 +15,7 @@ always @(*)begin
 4'b0111: sseg[6:0] = 7'b1110000;
 4'b1000: sseg[6:0] = 7'b1111111;
 4'b1001: sseg[6:0] = 7'b1111011;
-default:sseg[6:0] = 7'b0000000;
+default: sseg[6:0] = 7'b0000000;
 
     endcase
 
