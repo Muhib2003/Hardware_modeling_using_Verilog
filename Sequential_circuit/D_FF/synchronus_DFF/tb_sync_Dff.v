@@ -1,10 +1,8 @@
 
-
 module tb_sync_Dff();
 reg clk;
 reg reset,data,en;
 wire q;
-
 synchronus_d_ff uut(
     .clk(clk),
     .reset(reset),
@@ -12,9 +10,7 @@ synchronus_d_ff uut(
     .en(en),
     .q(q)
 );
-
 always #5 clk= ~clk;
-
 initial begin
     clk=0;
     reset=1;
@@ -30,8 +26,6 @@ initial begin
     reset=0;
     en=1;
     data=1;
-
   #10 $finish;
 end
-
 endmodule

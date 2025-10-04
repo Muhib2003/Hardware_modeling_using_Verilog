@@ -1,16 +1,11 @@
 module async_DFF(
-    input wire clk;
-    input wire reset;
-    input wire data;
-    output reg q;
-
+    input clk,reset,data,
+    output reg q
 );
-
 always @ (posedge clk or posedge reset)begin
-if(reset==1)
+if(reset)
 q <= 1'b0;
 else
 q <= data;
-
 end
 endmodule
