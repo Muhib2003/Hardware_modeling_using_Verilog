@@ -15,7 +15,8 @@ Implemented Modules
 
 ➕ Arithmetic Logic Unit (ALU): Addition, subtraction, logic operations, etc.
 
-⏱️ Sequential Circuits: Flip-flops,shift  Registers, Counters, and more.
+⏱️ Sequential Circuits: Flip-flops,shift  Registers, Counters, FIFO Buffer.
+
 
 🧪 Simulation Tools: Modelsim
 
