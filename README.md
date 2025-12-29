@@ -9,16 +9,18 @@ Each module includes a testbench for functional verification.
 
 Implemented Modules
 
-🧱 Elementary Gates: AND, OR, NOT, Full Adder.
+🧱 **Elementary Gates: AND, OR, NOT, Full Adder.**
 
-🔀 Multiplexer / Demultiplexer: 2-to-1, 4-to-1 MUX and DEMUX.
+🔀 **Multiplexer / Demultiplexer: 2-to-1, 4-to-1 MUX and DEMUX.**
 
-➕ Arithmetic Logic Unit (ALU): Addition, subtraction, logic operations, etc.
+➕ **Arithmetic Logic Unit (ALU): Addition, subtraction, logic operations, etc.**
 
-⏱️ Sequential Circuits: Flip-flops,shift  Registers, Counters, FIFO Buffer.
+⏱️ **Sequential Circuits: Flip-flops,shift  Registers, Counters, FIFO Buffer.**
+
+  **Finite State Machine (FSM) based traffic light controller.**
 
 
-🧪 Simulation Tools: Modelsim
+🧪 Simulation Tools: **Modelsim**
 
 
 🎯 Purpose
