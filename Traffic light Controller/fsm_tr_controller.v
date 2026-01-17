@@ -1,14 +1,17 @@
 module fsm_traffic_controller(
+
     input wire clk, reset,
     input wire T1, T2,
     output reg[1:0] LA,
     output reg[1:0] LB
 );
+
 localparam [1:0]
 s0 = 2'b00,
 s1 = 2'b01,
 s2 = 2'b10,
 s3 = 2'b11;
+
 localparam [1:0]
     RED    = 2'b00,
     YELLOW = 2'b01,
@@ -16,12 +19,10 @@ localparam [1:0]
 
 reg[1:0] state_reg,state_next;
 always @(posedge clk, posedge reset) begin
-
     if(reset)
     state_reg <= s0;
     else
     state_reg <= state_next;
-    
 end
 
 always @(*) begin
@@ -59,5 +60,4 @@ always @(*) begin
         default: begin LA = RED; LB = RED;  end
     endcase
 end
-
 endmodule

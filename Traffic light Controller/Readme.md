@@ -33,6 +33,7 @@ As a Moore FSM, the output signals depend only on the current state.
 Verilog HDL
 
 ModelSim (Simulation)
+Yosys (RTL synthesis)
 
 FSM (Moore Machine) Design Methodology
 
