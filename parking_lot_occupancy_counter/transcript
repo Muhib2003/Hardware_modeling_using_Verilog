@@ -1,0 +1,29 @@
+# Reading pref.tcl
+# Loading project parking_lot
+# Compile of hex_multiplexing.v was successful.
+# Compile of Occupancy_counter.v was successful.
+# Compile of parking_lot_counter.v was successful.
+# Compile of debouncing_circuit.v was successful.
+# Compile of top_module.v was successful.
+# Compile of tb_top.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 16:56:21 on May 09,2026
+# Loading work.tb_top
+# Loading work.top
+# Loading work.parking_lot
+# Loading work.occupancy_counter
+# Loading work.debouncing_circuit
+# Loading work.hex_multiplexing
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'sseg'. The port definition is at: D:/Project_gallery/Hardware_modeling_using_Verilog/parking_lot_occupancy_counter/hex_multiplexing.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top_instance/hex_instances File: D:/Project_gallery/Hardware_modeling_using_Verilog/parking_lot_occupancy_counter/top_module.v Line: 38
+add wave -position insertpoint sim:/tb_top/*
+run
+# Time	clk	reset	a	b	count	an	sseg
+# 0	0	1	0	0	00	e	01
+run
+run
+run
+run
+# image file format "bmp" is unknown
