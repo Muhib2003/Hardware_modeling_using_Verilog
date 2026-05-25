@@ -17,7 +17,8 @@ Implemented Modules
 
 ⏱️ **Sequential Circuits: Flip-flops,shift  Registers, Counters, FIFO Buffer.**
 
-  **Finite State Machine (FSM) based traffic light controller.**
+  **Finite State Machine (FSM) based traffic light controller  , Parking Lot Occupancy Counter**
+  
 
 
 🧪 Simulation Tools: **Modelsim**
