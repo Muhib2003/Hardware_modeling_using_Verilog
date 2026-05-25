@@ -1,30 +1,33 @@
-# Hardware Modeling Using Verilog
+A comprehensive Verilog-based implementation of digital logic and sequential circuits — from elementary gates to advanced arithmetic units — designed for learning, simulation, and hands-on hardware design using ModelSim.
 
-A Verilog-based implementation of digital logic and sequential circuits — from elementary gates to arithmetic units — designed for learning, simulation, and hardware design using ModelSim.
+## 📘 Overview
 
-📘 Overview
+This repository contains practical Verilog implementations of various digital logic components and subsystems, covering both combinational and sequential designs. Each module is accompanied by detailed testbenches for functional verification and learning purposes.
 
-This repository contains Verilog implementations of various digital logic components and subsystems, covering both combinational and sequential designs.
-Each module includes a testbench for functional verification.
+Whether you're a student exploring digital design fundamentals or an engineer brushing up on HDL skills, this repository provides a solid foundation with well-commented code and comprehensive examples.
 
-Implemented Modules
+## 🧬 Implemented Modules
 
-🧱 **Elementary Gates: AND, OR, NOT, Full Adder.**
+### 🧱 Combinational Logic
+- **Elementary Gates**: AND, OR, NOT, NAND, NOR, XOR, XNOR
+- **Adders**: Half Adder, Full Adder, Multi-bit Adder
+- **Multiplexers/Demultiplexers**: 2-to-1, 4-to-1 MUX and DEMUX
+- **Decoders & Encoders**: Binary to decimal conversion
+- **Arithmetic Logic Unit (ALU)**: Addition, subtraction, logic operations, and more
 
-🔀 **Multiplexer / Demultiplexer: 2-to-1, 4-to-1 MUX and DEMUX.**
+### ⏱️ Sequential Circuits
+- **Flip-flops**: SR, JK, D, T flip-flops with timing analysis
+- **Shift Registers**: Serial-in Parallel-out (SIPO), Parallel-in Serial-out (PISO)
+- **Counters**: Binary, BCD, and asynchronous counters
+- **FIFO Buffer**: First-In-First-Out queue implementation
+- **Finite State Machines (FSM)**:
+  - Traffic Light Controller
+  - Parking Lot Occupancy Counter
 
-➕ **Arithmetic Logic Unit (ALU): Addition, subtraction, logic operations, etc.**
+## 🛠️ Tools & Technologies
 
-⏱️ **Sequential Circuits: Flip-flops,shift  Registers, Counters, FIFO Buffer.**
-
-  **Finite State Machine (FSM) based traffic light controller  , Parking Lot Occupancy Counter**
-  
-
-
-🧪 Simulation Tools: **Modelsim**
-
-
-🎯 Purpose
-
-This project helps learners understand how digital systems are modeled, tested, and simulated using Verilog HDL.
-It provides a strong foundation for those exploring Digital Logic Design, HDL Modeling, and VLSI Fundamentals.
+| Tool | Purpose |
+|------|---------|
+| **ModelSim** | HDL simulation and verification |
+| **Verilog HDL** | Hardware description language |
+| **Testbenches** | Functional verification |
